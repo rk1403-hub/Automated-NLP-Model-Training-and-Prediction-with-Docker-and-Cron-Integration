@@ -18,7 +18,7 @@ from pymongo import MongoClient
 
 class nltpred:
     def __init__(self):
-        client = MongoClient("mongodb+srv://prajwal:wSnhpJZel3jMaesA@staging.awytu.mongodb.net/?retryWrites=true&w=majority")
+        client = MongoClient("URI")
 
 
         self.db = client.dashboard
